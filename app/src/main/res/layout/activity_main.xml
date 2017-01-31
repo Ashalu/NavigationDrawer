@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/maindrawer"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/toolbar"
+                android:id="@+id/toolbar"/>
+
+
+        </LinearLayout>
+
+
+
+    <android.support.design.widget.NavigationView android:id="@+id/fragmentDrawer"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:itemIconTint="#FFFFFF"
+        android:background="#212121"
+        app:itemBackground="@drawable/nav_item_background"
+        app:headerLayout="@layout/headerimage"
+        app:itemTextColor="#FFFFFF"
+        app:menu="@menu/navigation_drawer_menu"/>
+
+
+</android.support.v4.widget.DrawerLayout>

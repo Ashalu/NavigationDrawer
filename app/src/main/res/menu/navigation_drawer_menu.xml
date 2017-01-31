@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:title="Setting" />
+    <item
+        android:id="@+id/discover"
+        android:icon="@drawable/ic_blur_on_black_24dp"
+        android:title="Discover" />
+
+    <item
+        android:id="@+id/store"
+        android:icon="@drawable/ic_local_grocery_store_black_24dp"
+        android:title="Store" />
+
+    <item
+        android:id="@+id/library"
+        android:icon="@drawable/ic_wallpaper_black_24dp"
+        android:title="Library" />
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_add_a_photo_black_24dp"
+        android:title="Camera" />
+
+
+</menu>
